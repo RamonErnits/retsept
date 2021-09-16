@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Slabo+27px&display=swap');
+
+:root {
+    --headings: #f8a932;
+    --text: rgb(105, 23, 23);
+    --backround: #ffb055;
+    --Headings-Font-family: 'Anton', sans-serif;
+    --Text-Font-family: 'Slabo 27px', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: springgreen solid 2px; */
+}
+
+h1 {
+    font-size: 1.5vw;
+    padding-bottom: 2rem;
+    font-family: var(--Headings-Font-family);
+}
+
+h2 {
+    font-size: 1vw;
+    padding-bottom: 1rem;
+    font-family: var(--Headings-Font-family);
+}
+
+p {
+    font-size: 0.75vw;
+    padding-bottom: 0.5rem;
+    font-family: var(--Text-Font-family);
+}
+
+li {
+    font-size: 0.75vw;
+    padding-bottom: 0.5rem;
+    font-family: var(--Text-Font-family);
+}
+
+body {
+    background-color: var(--backround);
+    color: var(--text);
+    font-size: 2,5rem;
+    text-align: center;
+}
+
+.middle-container {
+    width: 40%;
+    margin: 3rem auto 1rem auto;
+}
+
+.koostisosad-container {
+    overflow: auto;
+    border: beige solid 3px;
+    padding: 2rem;
+}
+
+.img-scaler img{
+    width: 100%;
+}
+
+.img-scaler {
+    float: left;
+    width: 40%;
+}
+
+.valmistamine-container{
+    margin-top: 5rem;
+    text-align: left;
+    border: beige solid 3px;
+    padding: 2rem;
+}
+
+.footer-style{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
